@@ -22,13 +22,5 @@ public class Task {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private String description;
-	
-	/*
-	 * @ManyToOne (cascade = CascadeType.ALL)
-	 * 
-	 * @JoinColumn(name = "list_task_id", nullable=false) private ListTask listTask;
-	 */
-
-	
+	private String description;	
 }
